@@ -2,29 +2,36 @@
   height: 300px;
   padding-left: 900px;
 }
+
 #sideimage1{
   grid-area: ad;
 }
+
 #blog-image1{
   margin-left: 100px;
   height: 300px;
   width: 75%;
 }
+
 #sideimage2{
   grid-area: ad2;
 }
+
 #blog-image2{
   height: 300px;
   width: 75%;
   margin-left: 100px;
 }
+
 #avatar{
   height: 150px
 }
+
 #blogmainphoto{
   height: 400px;
   margin-left: 80px;
 }
+
 .image-caption{
   font-size: 10px;
   text-align: center;
