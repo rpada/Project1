@@ -33,7 +33,7 @@
   font-size: 25px;
 }
 
-.blog-container1{
+.blog-container1{ /*made with help from Udacity CSS Grid*/
   background-color: whitesmoke;
   display: grid;
   grid-template-columns: 30vw 30vw;
@@ -44,7 +44,7 @@
   justify-content: center;
 }
 
-.blog-container2{
+.blog-container2{ /*made with help from Udacity CSS Grid*/
   background-color: whitesmoke;
   grid-template-columns: 30vw 30vw;
   display: grid;
