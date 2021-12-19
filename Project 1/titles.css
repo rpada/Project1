@@ -1,0 +1,17 @@
+.titlebar{
+    width: 50%;
+    margin-left: 375px
+}
+#title {
+    color:#ad242c;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+}
+#blog1-title{
+    padding-left: 75px;
+
+  }
+#blog2-title{
+    padding-left: 75px;
+  }

@@ -1,0 +1,84 @@
+.container{
+  background-color: #e99d9f;
+  display: grid;
+  grid-template-columns: 20vw 60vw;
+  grid-gap: 25px;
+  grid-template-areas: 
+  "sd main main main main main"
+  "sd sc sc sc sc sc"
+  "sd box box box box box";
+  padding: 10px
+}
+ 
+#one{
+  background-image: url('https://images.unsplash.com/photo-1575384043001-f37f48835528?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+  background-size: cover; 
+  grid-area: sd;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  box-shadow: 5px 5px 8px 5px #888888;
+}
+
+#two{
+  grid-area: main;
+}
+
+#three{
+  grid-area: sc;
+}
+
+#description1{
+  grid-area: sum;
+  margin-left: 75px;
+  font-size: 25px;
+}
+
+.blog-container1{
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 30vw 30vw;
+  grid-gap: 100px;
+  grid-template-areas: 
+  "sum ad ad";
+  padding: 10px;
+  justify-content: center;
+}
+
+.blog-container2{
+  background-color: whitesmoke;
+  grid-template-columns: 30vw 30vw;
+  display: grid;
+  grid-template-areas: 
+  "sum2 ad2 ad2";
+  padding: 10px;
+  grid-gap: 100px;
+  justify-content: center;
+}
+
+#description2{
+  grid-area: sum2;
+  font-size: 25px;
+  margin-left: 75px;
+}
+
+.blogcontainer{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 40vw 20vw;
+  grid-gap: 25px;
+  grid-template-areas: 
+  "bc bc bc si si si";
+  padding: 10px
+}
+
+#blogcontent{
+  grid-area: bc;
+  font-family: 'Montserrat', sans-serif;
+}
+  
+#blogabout{
+  grid-area: si;
+  font-family: 'Montserrat', sans-serif;
+}
+
+  
