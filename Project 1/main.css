@@ -1,3 +1,5 @@
+/*Code created based off of Udacity class content*/
+/*fonts from Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Mountains+of+Christmas:wght@700&display=swap');
 @import 'images.css';
 @import 'layouts.css';
@@ -9,7 +11,7 @@ body {
 }
 .card{
   font-family: 'Montserrat', sans-serif;
-  box-shadow: 5px 5px 8px 5px #888888;
+  box-shadow: 5px 5px 8px 5px #888888; /*with help from https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
   background-color: whitesmoke;
 }
 
@@ -20,7 +22,7 @@ body {
   display: flex;
 }
 .home{
-  flex: 2;
+  flex: 2; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
   color: whitesmoke;  
   margin-left: 20px;
   font-family: 'Mountains of Christmas', cursive;
@@ -31,12 +33,12 @@ body {
   color: whitesmoke
 }
 .about{
-  flex: 2;
+  flex: 2; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
   color: whitesmoke;
   font-family: 'Mountains of Christmas', cursive;
  }
 .contact{
-  flex: 2;
+  flex: 2; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
   color: whitesmoke;
   font-family: 'Mountains of Christmas', cursive;
 }
@@ -52,7 +54,7 @@ footer{
   background-color: #ad242c;
   color: #f2f2f2;
   height: 50px;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 30px 30px 30px 30px; /*with help from https://www.w3schools.com/css/css3_borders.asp*/
   margin-left: 70px;
   margin-top: 30px;
 }
@@ -62,7 +64,7 @@ footer{
   background-color: #ad242c;
   color: #f2f2f2;
   height: 50px;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 30px 30px 30px 30px; /*with help from https://www.w3schools.com/css/css3_borders.asp*/
   margin-left: 70px;
   margin-top: 30px;
 }
@@ -84,8 +86,8 @@ footer{
   background-color: #dc143c;
 }
 .madeby{
-  flex: 0.5;
+  flex: 0.5; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
 }
 .email{
-  flex: 0.5;
+  flex: 0.5; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
 }
