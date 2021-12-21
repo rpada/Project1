@@ -1,17 +1,21 @@
 /*Code created based off of Udacity class content*/
+
+
 /*fonts from Google Fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Mountains+of+Christmas:wght@700&display=swap');
 @import 'images.css';
 @import 'layouts.css';
 @import 'titles.css';
-
 body {
   background-image: url('https://images.unsplash.com/photo-1576919228236-a097c32a5cd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
-  background-size: cover; 
+  background-size: cover;
 }
-.card{
+
+.card {
   font-family: 'Montserrat', sans-serif;
-  box-shadow: 5px 5px 8px 5px #888888; /*with help from https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+  box-shadow: 5px 5px 8px 5px #888888;
+  /*with help from https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
   background-color: whitesmoke;
 }
 
@@ -21,73 +25,89 @@ body {
   padding-top: 15px;
   display: flex;
 }
-.home{
-  flex: 2; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
-  color: whitesmoke;  
+
+.home {
+  flex: 2;
+  /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
+  color: whitesmoke;
   margin-left: 20px;
   font-family: 'Mountains of Christmas', cursive;
   text-decoration: none;
 }
-.home a{
+
+.home a {
   text-decoration: none;
   color: whitesmoke
 }
-.about{
-  flex: 2; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
-  color: whitesmoke;
-  font-family: 'Mountains of Christmas', cursive;
- }
-.contact{
-  flex: 2; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
+
+.about {
+  flex: 2;
+  /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
   color: whitesmoke;
   font-family: 'Mountains of Christmas', cursive;
 }
 
-footer{
+.contact {
+  flex: 2;
+  /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
+  color: whitesmoke;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+footer {
   color: whitesmoke;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
- 
-#blog1button{
+
+#blog1button {
   font-family: 'Montserrat', sans-serif;
   background-color: #ad242c;
   color: #f2f2f2;
   height: 50px;
-  border-radius: 30px 30px 30px 30px; /*with help from https://www.w3schools.com/css/css3_borders.asp*/
+  border-radius: 30px 30px 30px 30px;
+  /*with help from https://www.w3schools.com/css/css3_borders.asp*/
   margin-left: 70px;
   margin-top: 30px;
 }
 
-#blog2button{
+#blog2button {
   font-family: 'Montserrat', sans-serif;
   background-color: #ad242c;
   color: #f2f2f2;
   height: 50px;
-  border-radius: 30px 30px 30px 30px; /*with help from https://www.w3schools.com/css/css3_borders.asp*/
+  border-radius: 30px 30px 30px 30px;
+  /*with help from https://www.w3schools.com/css/css3_borders.asp*/
   margin-left: 70px;
   margin-top: 30px;
 }
 
-#grinchmonologue{
+#grinchmonologue {
   margin-left: 80px;
 }
-#quotegrinch{
+
+#quotegrinch {
   margin-left: 100px;
 }
-.Socials a{
+
+.Socials a {
   text-align: center;
   text-decoration: none;
   font-size: 20px;
   margin: 20px;
 }
-.footer{
+
+.footer {
   display: flex;
   background-color: #dc143c;
 }
-.madeby{
-  flex: 0.5; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
+
+.madeby {
+  flex: 0.5;
+  /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
 }
-.email{
-  flex: 0.5; /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
+
+.email {
+  flex: 0.5;
+  /*used concept from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
 }
